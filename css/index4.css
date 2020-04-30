@@ -21,3 +21,18 @@ html,body{
 .share .hui_inputType1 span{
 	width: 72px!important;
 }
+.hui_team{
+	background: rgba(255,255,255,1);
+    border-radius: 14px;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 9px;
+    padding-left: 9px;
+    font-size: 12px;
+    position: absolute;
+    right: 11px;
+    top: 12px;
+    color: #FF9046;
+    line-height: 22px;
+}
