@@ -1,0 +1,60 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+.wrap_container{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background: #f8f6f9;
+}
+.mui_Content{
+	background: #F7F7F7!important;
+	height: calc(100% - 48px)!important;
+	height: -webkit-calc(100% - 48px)!important;
+}
+.hui_setting_content{
+	    padding-top: 10px;
+    padding-bottom: 9px;
+    padding-left: 10px;
+    margin-left: 11px;
+    padding-right: 10px;
+    margin-right: 11px;
+    background: #fff;
+    background: rgba(255,255,255,1);
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.04);
+    border-radius: 10px;
+    color: #323232;
+    font-size: 12px;
+    overflow: hidden;
+}
+.hui_setting_content img{
+	height: 22px;
+	margin-right: 4px;
+}
+.hui_edit{
+	    background: rgba(255,255,255,1);
+    border: 1px solid rgba(255,157,72,1);
+    border-radius: 28px;
+    padding-top: 1px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    color: rgba(255,157,72,1);
+    float: right;
+    margin-left: 8px;
+}
+.hui_Del{
+	background:#fff;
+	border:1px solid #DCDCDC;
+	border-radius:28px;
+	padding-top: 1px;
+    padding-right: 10px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+	color: #646464;
+	float: right;
+	margin-left: 8px;
+	
+}

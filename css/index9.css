@@ -1,0 +1,142 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+.wrap_container{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background: #ff984e;
+}
+.mui_Content{
+	height: calc(100% - 48px)!important;
+	height: -webkit-calc(100% - 48px)!important;
+}
+.hui_w1{
+	    font-size: 28px;
+    font-family: DIN Next W1G;
+    font-weight: 500;
+    color: rgba(255,127,0,1);
+    /* margin-bottom: 13px; */
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.hui_w2{
+	font-size:12px;
+	font-family:Source Han Sans SC;
+	font-weight:400;
+	color:rgba(150,150,150,1);
+	margin-bottom: 35px;
+	text-align: center;
+}
+.hui_w3{
+	margin-left: 12px;
+	font-size:14px;
+	font-family:Source Han Sans SC;
+	font-weight:400;
+	color:rgba(50,50,50,1);
+	margin-bottom: 10px;
+}
+
+.hui_inputType2{
+	margin-left: 13px;
+	margin-right: 13px;
+	margin-bottom: 10px;
+	border:1px solid rgba(220,220,220,1);
+	padding-left: 7px;
+	height: 35px;
+	position: relative;
+	border-right: 0;
+}
+.hui_inputType2 input{
+	padding-bottom: 0!important;
+	padding-top: 0!important;
+	padding-right: 0!important;
+	height: 100%;
+	width: calc(100% - 82px)!important;
+	width: -webkit-calc(100% - 82px)!important;
+}
+.hui_copy{
+	width: 80px;
+	text-align: center;
+	line-height: 35px;
+	height: 35px;
+	background:rgba(118,199,250,1);
+	color: #fff;
+	font-size: 14px;
+	display: inline-block;
+	position: absolute;
+	top:0;
+	right: 0;
+}
+.hui_w4{
+	font-size:14px;
+font-family:Source Han Sans SC;
+font-weight:400;
+color:rgba(50,50,50,1);
+    margin-bottom: 9px;
+    margin-left: 13px;
+}
+.hui_w5{
+    font-family: Source Han Sans SC;
+    font-weight: 400;
+    color: rgba(100,100,100,1);
+    font-size: 12px;
+    margin-bottom: 3px;
+    margin-left: 13px;
+}
+
+.huiTop2{
+	box-shadow: none!important;
+	bottom: 87px!important;
+}
+.huiTop1{
+	box-shadow: none!important;
+	background:#76c7f9!important;
+}
+
+.HuiTab{
+	color: #FF9D48!important;
+}
+.tabBar span{
+	width: 49.9%!important;
+	background:none!important;
+	text-align: center!important;
+	font-weight: normal!important;
+	font-size: 14px!important;
+	color: #323232!important;
+	padding-bottom:7px!important;
+}
+
+.tabBar span.current {
+    background-color: none!important;
+    color: #FF9D48!important;
+}
+.tabBar{
+	border-bottom: 1px solid #eae7ea!important;
+}
+.tabBar span.current {
+    border-bottom:1px solid  #FF9D48!important;
+}
+.hui_inputType1 span{
+	width: 84px!important;
+}
+.hui_inputType1 input {
+    width: 52%!important;
+    margin-left: 10px;
+}
+.hui_yzm{
+	    font-size: 12px;
+    color: #646464;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 8px;
+    padding-left: 8px;
+    border-radius: 15px;
+    border: 1px solid #646464;
+    position: absolute;
+    right: 0;
+    top: 12px;
+}

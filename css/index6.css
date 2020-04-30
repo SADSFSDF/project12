@@ -1,0 +1,34 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+.wrap_container{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background: #ff984e;
+}
+.mui_shareTitle{
+	padding-top: 3px;
+	padding-bottom: 8px;
+	text-align: center;
+	font-family:Source Han Sans SC;
+	font-weight:400;
+	color:rgba(255,255,255,1);
+	font-size: 12px;
+}
+.share .hui_inputType1 span{
+	width: 60px!important;
+}
+.hui_msg{
+	font-size:14px;
+font-family:Source Han Sans SC;
+font-weight:400;
+margin-left:70px;
+color:rgba(50,50,50,1);
+}
+.hui_floatLeft{
+	float: left;
+
+}

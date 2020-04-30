@@ -1,0 +1,85 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="lib/html5shiv.js"></script>
+<script type="text/javascript" src="lib/respond.min.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.8/iconfont.min.css" />
+<link rel="stylesheet" type="text/css" href="css/index6.css">
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<!--[if lt IE 9]>
+<link href="static/h-ui/css/H-ui.ie.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 6]>
+<script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+<style type="text/css">
+.ui-sortable .panel-header{ cursor:move}
+</style>
+<title>project</title>
+<meta name="keywords" content="关键词,5个左右,单个8汉字以内">
+<meta name="description" content="网站描述，字数尽量空制在80个汉字，160个字符以内！">
+</head>
+<body ontouchstart>
+<div class="wrap_container">
+	<div class="commonHeader">
+		<img src="images/fanhui@3x.png" class="back">
+		兑换(TM)
+	</div>
+	<div class="mui_shareTitle">
+		提示：平台将按照兑换金额的5%收取体现手续费
+	</div>
+	<div class="mui_Content share">
+		<div class="hui_inputType1">
+			<span class="middle">兑换</span>
+			<input type="text" class="input-text middle" placeholder="请输入" name="" value="500">
+		</div>
+		<div class="hui_inputType1">
+			<span class="middle">兑换账户</span>
+			<input type="text" class="input-text middle" placeholder="请输入" name="" value="交通银行**8765+朱槿莲">
+		</div>
+		<div class="hui_inputType1">
+			<span class="middle hui_floatLeft">核对账户</span>
+			<div class="hui_msg">
+				<div> 开户行：交通银行 </div>
+				<div>姓名：朱槿莲</div>
+				<div>账号：887655677774746278</div>
+			</div>
+		</div>
+		<div class="hui_inputType1">
+			<span class="middle">安全密码</span>
+			<input type="text" class="input-text middle" placeholder="请输入安全密码" name="">
+		</div>
+		
+		<div class="hui_bottom_btn">确定兑换</div>
+	</div>
+	
+</div>
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="static/h-ui/js/H-ui.js"></script>
+</body>
+<script type="text/javascript">
+	$(".back").on("click",function(){
+		window.location.href="index2.html";
+	});
+	$(".hui_bottom_btn").on("click",function(){
+		window.location.href="index5.html";
+	});
+	var win_h = $(window).height();//关键代码
+	window.addEventListener('resize', function () {
+	    if($(window).height() < win_h){
+	        $('.hui_bottom_btn').hide();
+	    }else{
+	        $('.hui_bottom_btn').show();
+	    }
+	});
+</script>
+</html>

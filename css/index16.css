@@ -1,0 +1,30 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+.wrap_container{
+	width: 100%;
+	height: 100%;
+}
+.hui_addCode{
+	width: 178px;
+	height: 178px;
+	margin:0 auto;
+	margin-top: 80px;
+	text-align: center;
+	line-height: 178px;
+	margin-bottom: 20px;
+	border:1px solid rgba(220,220,220,1);
+}
+.hui_addCode img{
+	height: 67px;
+}
+.hui_w1{
+	font-family:Source Han Sans SC;
+	font-weight:400;
+	color:rgba(150,150,150,1);
+	font-size: 14px;
+	text-align: center;
+
+}

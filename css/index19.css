@@ -1,0 +1,75 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+.wrap_container{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background: #ff984e;
+}
+.mui_Content{
+	height: calc(100% - 48px)!important;
+	height: -webkit-calc(100% - 48px)!important;
+}
+.hui_setting_content{
+	padding-top:6px;
+	margin-left: 11px;
+	margin-right: 11px;
+}
+.hui_setting_inner{
+	padding-top:6px;
+	padding-bottom: 6px;
+	margin-bottom: 11px;
+	overflow: hidden;
+	border-bottom: 1px solid #e7e4e7;
+
+}
+.hui_setting_inner span{
+	font-size:14px;
+	font-family:Source Han Sans SC;
+	font-weight:400;
+	color:rgba(100,100,100,1);
+}
+.radioBtn{
+	float: right;
+	height: 22px;
+}
+.textarea{
+	border:1px solid rgba(230,230,230,1);
+	color: #B4B4B4;
+	height: 50px;
+	width: 65%;
+	display: inline-block;
+	float: right;
+}
+.hui_typeBtn1{
+	height: 43px;
+    /* margin-left: 15px; */
+    /* margin-right: 15px; */
+    background: rgba(255,146,51,1);
+    border-radius: 43px;
+    line-height: 43px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 30px;
+}
+.hui_typeBtn2{
+	height: 43px;
+    /* margin-left: 15px; */
+    /* margin-right: 15px; */
+    background:rgba(255,198,149,1);
+    border-radius: 43px;
+    line-height: 43px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #B46F33;
+    margin-top: 20px;
+}
+.huipaadding{
+	padding-bottom: 20px;
+}

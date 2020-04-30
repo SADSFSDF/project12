@@ -1,0 +1,133 @@
+html,body{
+	width: 100%;
+	height: 100%;
+}
+
+.wrap_container{
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background: #ff984e;
+}
+.mui_shareTitle{
+	padding-top: 3px;
+	padding-bottom: 8px;
+	text-align: center;
+	font-family:Source Han Sans SC;
+	font-weight:400;
+	color:rgba(255,255,255,1);
+	font-size: 12px;
+}
+.share .hui_inputType1 span{
+	width: 72px!important;
+}
+.mui_Content {
+    height: calc(100% - 48px)!important;
+    height: -webkit-calc(100% - 48px)!important;
+}
+.hui_buy{
+background: rgba(255,255,255,1);
+    border-radius: 14px;
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 9px;
+    padding-left: 9px;
+    font-size: 12px;
+    position: absolute;
+    right: 11px;
+    top: 12px;
+    color: #FF9046;
+    line-height: 22px;
+}
+.HuiTab{
+	color: #FF9D48!important;
+}
+.tabBar span{
+	width: 19.9%!important;
+	background:none!important;
+	text-align: center!important;
+	font-weight: normal!important;
+	font-size: 14px!important;
+	color: #323232!important;
+	padding-bottom:7px!important;
+	padding-right: 0!important;
+	padding-left: 0!important
+}
+
+.tabBar span.current {
+    background-color: none!important;
+    color: #FF9D48!important;
+}
+.tabBar{
+	border-bottom: 1px solid #eae7ea!important;
+}
+.tabBar span.current {
+    border-bottom:1px solid  #FF9D48!important;
+}
+.hui_table{
+	margin-left: 11px;
+	margin-right: 11px;
+	margin-top: 10px;
+	border:1px solid #e8e9ec;
+	border-radius: 5px;
+	border-bottom: 0;
+}
+.hui_table_tr{
+	    background: #f7f4f8;
+    border-bottom: 1px solid #f1f0f2;
+    padding: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+}
+.hui_table_td{
+	padding: 5px;
+	border-bottom: 1px solid #f1f0f2;
+}
+.hui_table_tr div:nth-of-type(1){
+	font-size: 14px;
+	color: #646464;
+	width: 50%;
+	display: inline-block;
+}
+.hui_table_tr div:nth-of-type(2){
+	font-size: 14px;
+	color: #646464;
+	width: 25%;
+	display: inline-block;
+}
+.hui_table_tr div:nth-of-type(3){
+	font-size: 14px;
+	color: #646464;
+	width: 20%;
+	display: inline-block;
+}
+.hui_table_td div:nth-of-type(1){
+	font-size: 12px;
+	color: #646464;
+	width: 50%;
+	display: inline-block;
+}
+.hui_table_td div:nth-of-type(2){
+	font-size: 12px;
+	color: #FF9D48;
+	font-weight: bold;
+	width: 25%;
+	display: inline-block;
+}
+.hui_table_td div:nth-of-type(3){
+	font-size: 12px;
+	color: #FF9D48;
+	width: 20%;
+	display: inline-block;
+	position: relative;
+}
+.hui_table_td div:nth-of-type(3) span{
+	padding-top:2px;
+	padding-bottom: 2px;
+	padding-right: 6px;
+	padding-left: 6px;
+	border:1px solid #FF9D48;
+	border-radius: 5px;
+}

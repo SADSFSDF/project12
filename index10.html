@@ -1,0 +1,86 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="lib/html5shiv.js"></script>
+<script type="text/javascript" src="lib/respond.min.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.8/iconfont.min.css" />
+<link rel="stylesheet" type="text/css" href="css/index10.css">
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<!--[if lt IE 9]>
+<link href="static/h-ui/css/H-ui.ie.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 6]>
+<script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+<style type="text/css">
+.ui-sortable .panel-header{ cursor:move}
+</style>
+<title>project</title>
+<meta name="keywords" content="关键词,5个左右,单个8汉字以内">
+<meta name="description" content="网站描述，字数尽量空制在80个汉字，160个字符以内！">
+</head>
+<body ontouchstart>
+<div class="wrap_container">
+	<div class="commonHeader">
+		<img src="images/fanhui@3x.png" class="back">
+		订单详情
+	</div>
+	<div class="mui_Content menu">
+		<div class="hui_w1">
+			¥304.00
+		</div>
+		<div class="hui_w2">请付款至以下账户</div>
+		<div class="hui_w3">订单号：DF298876789499303222</div>
+
+		<div class="hui_inputType2">
+			<input type="text" class="input-text middle" placeholder="请输入" name="" value="万一">
+			<span class="hui_copy">复制</span>
+		</div>
+		<div class="hui_inputType2">
+			<input type="text" class="input-text middle" placeholder="请输入" name="" value="77666553673748849432">
+			<span class="hui_copy">复制</span>
+		</div>
+		<div class="hui_inputType2">
+			<input type="text" class="input-text middle" placeholder="请输入" name="" value="交通银行">
+			<span class="hui_copy">复制</span>
+		</div>
+		<div class="hui_inputType2">
+			<input type="text" class="input-text middle" placeholder="请输入" name="" value="12345">
+			<span class="hui_copy">复制</span>
+		</div>
+
+		<div class="hui_w4">转账确认</div>
+		<div class="hui_w5">如果您转账完成,上传支付凭证,然后点击确认代付完成</div>
+	</div>
+	<div class="hui_bottom_btn huiTop2">确认代付完成</div>
+	<div class="hui_bottom_btn huiTop1">上传支付凭证</div>
+</div>
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="static/h-ui/js/H-ui.js"></script>
+</body>
+<script type="text/javascript">
+	$(".back").on("click",function(){
+		window.location.href="index1.html?curr=3";
+	});
+	$(".hui_bottom_btn").on("click",function(){
+		window.location.href="index5.html";
+	});
+	var win_h = $(window).height();//关键代码
+	window.addEventListener('resize', function () {
+	    if($(window).height() < win_h){
+	        $('.hui_bottom_btn').hide();
+	    }else{
+	        $('.hui_bottom_btn').show();
+	    }
+	});
+</script>
+</html>

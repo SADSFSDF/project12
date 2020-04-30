@@ -1,0 +1,86 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="lib/html5shiv.js"></script>
+<script type="text/javascript" src="lib/respond.min.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.8/iconfont.min.css" />
+<link rel="stylesheet" type="text/css" href="css/index3.css">
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<!--[if lt IE 9]>
+<link href="static/h-ui/css/H-ui.ie.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 6]>
+<script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+<style type="text/css">
+.ui-sortable .panel-header{ cursor:move}
+</style>
+<title>project</title>
+<meta name="keywords" content="关键词,5个左右,单个8汉字以内">
+<meta name="description" content="网站描述，字数尽量空制在80个汉字，160个字符以内！">
+</head>
+<body ontouchstart>
+<div class="wrap_container">
+	<div class="commonHeader">
+		<img src="images/fanhui@3x.png" class="back">
+		保存微信收款码
+	</div>
+	<div class="hui_saveCode">
+		<div class="hui_qrImgBox">
+			<img src="images/qrCode.jpg">
+		</div>
+		<div class="hui_w1">微信扫码测试支付</div>
+	</div>
+	<div class="hui_inputType1">
+		<span class="middle">收款昵称</span>
+		<input type="text" class="input-text middle" placeholder="请输入账户昵称" name="">
+	</div>
+	<div class="hui_inputType1">
+		<span class="middle">备注</span>
+		<input type="text" class="input-text middle" placeholder="请输入备注" name="">
+	</div>
+	<div class="hui_inputType1">
+		<span class="middle">安全密码</span>
+		<input type="text" class="input-text middle" placeholder="请输入安全密码" name="">
+	</div>
+	<div class="hui_bottom_btn">保存微信收款码</div>
+</div>
+<div class="hui_pop_box2">
+	<div class="hui_pop_box2Inner">
+		<img src="images/check@2x.png">
+		<div class="hui_pop_top2">保存成功</div>
+		<div class="hui_pop_submit2">确定</div>
+	</div>
+</div>
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="static/h-ui/js/H-ui.js"></script>
+</body>
+<script type="text/javascript">
+	$(".back").on("click",function(){
+		window.location.href="index16.html";
+	});
+	$(".hui_bottom_btn").on("click",function(){
+		$(".hui_pop_box2").show();
+	})
+	$(".hui_pop_submit2").on("click",function(){
+		$(".hui_pop_box2").hide();
+	})
+	var win_h = $(window).height();//关键代码
+	window.addEventListener('resize', function () {
+	    if($(window).height() < win_h){
+	        $('.hui_bottom_btn').hide();
+	    }else{
+	        $('.hui_bottom_btn').show();
+	    }
+	});
+</script>
+</html>

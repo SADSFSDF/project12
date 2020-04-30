@@ -1,0 +1,71 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="lib/html5shiv.js"></script>
+<script type="text/javascript" src="lib/respond.min.js"></script>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="static/h-ui/css/H-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="lib/Hui-iconfont/1.0.8/iconfont.min.css" />
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" type="text/css" href="css/common.css">
+<!--[if lt IE 9]>
+<link href="static/h-ui/css/H-ui.ie.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--[if IE 6]>
+<script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+<style type="text/css">
+.ui-sortable .panel-header{ cursor:move}
+</style>
+<title>project</title>
+<meta name="keywords" content="关键词,5个左右,单个8汉字以内">
+<meta name="description" content="网站描述，字数尽量空制在80个汉字，160个字符以内！">
+</head>
+<body ontouchstart>
+<div class="wrap_container">
+	<img src="images/banner.jpg" class="logo_1">
+	<div class="login_container">
+			<div class="w1">欢迎登录 </div>
+			<div class="w2">SK支付4.0 </div>
+			<div class="inputWrapType1">
+				<div class="inputWrapType1Top">手机号 <font class="fontType1">*手机号输入有误</font></div>
+				<div class="inputWrapType1Bottom">
+					<input type="text" name="" class="input-text" placeholder="请输入手机号">
+				</div>
+			</div>
+
+			<div class="inputWrapType1">
+				<div class="inputWrapType1Top">登录密码</div>
+				<div class="inputWrapType1Bottom">
+					<input type="text" name="" class="input-text" placeholder="请输入密码">
+				</div>
+			</div>
+
+			<div class="btntype1" id="login">立即登录</div>
+	</div>
+</div>
+<script type="text/javascript" src="lib/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="static/h-ui/js/H-ui.js"></script>
+<script type="text/javascript">
+	var win_h = $(window).height();//关键代码
+	window.addEventListener('resize', function () {
+	    if($(window).height() < win_h){
+	        $('.btntype1').hide();
+	    }else{
+	        $('.btntype1').show();
+	    }
+	});
+
+	$("#login").on("click",function(){
+		window.location.href="index1.html";
+	})
+</script>
+</body>
+</html>
