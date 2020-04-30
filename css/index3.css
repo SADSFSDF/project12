@@ -33,3 +33,6 @@ font-family:Source Han Sans SC;
 font-weight:400;
 color:rgba(150,150,150,1);
 }
+.hui_inputType1 span{
+	width: 70px!important;
+}

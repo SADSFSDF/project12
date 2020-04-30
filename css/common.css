@@ -377,7 +377,7 @@
 	border-bottom: 1px solid #f8f6f9;
 }
 .hui_inputType1 span{
-	width: 60px;
+	width: 70px!important;
 	display: inline-block;
 }
 .hui_inputType1 input{
